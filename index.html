@@ -1,86 +1,78 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+---
+layout: default
+title: POP Python
+---
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
-	<title>GaretJax/pop-python @ GitHub</title>
+<section id="introduction">
+	<h1>Introduction</h1>
+	<p><img src="{{ site.url }}/images/gridgroup-logo.png" /> This project is developed as a semester project, in the frame of different courses of the Department
+		of Telecommunications and Computer Science of the College of Engineering and Architecture
+		of Fribourg, Switzerland, and aims to provide a feasibility study of a possible Python implementation of
+		the POP (Parallel Object Programming) model.</p>
 	
-	<style type="text/css">
-		body {
-  		margin-top: 1.0em;
-  		background-color: #2507d3;
-		  font-family: "Helvetica,Arial,FreeSans";
-  		color: #ffffff;
-    }
-    #container {
-      margin: 0 auto;
-      width: 700px;
-    }
-		h1 { font-size: 3.8em; color: #daf82c; margin-bottom: 3px; }
-		h1 .small { font-size: 0.4em; }
-		h1 a { text-decoration: none }
-		h2 { font-size: 1.5em; color: #daf82c; }
-    h3 { text-align: center; color: #daf82c; }
-    a { color: #daf82c; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-		pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
-	</style>
+	<p>The wiki of the GRID &amp; Ubiquitous Computing Group describes the POP model – in its current C++ implementation – with the following words:</p>
 	
-</head>
+	<blockquote>
+		<p>POP-C++ is a comprehensive object-oriented system for developing HPC applications on the Grid. It consists of a programming suite (language, compiler) and a run-time system for running POP-C++ applications.</p>
+		<p>The POP-C++ language is an extension of C++ that implements the parallel object model with the integration of resource requirements into distributed objects.</p>
+		<p>We try to keep this extension as close as possible to C++ so that programmers can easily learn POP-C++ and that existing C++ libraries can be parallelized using POP-C++ without too much effort.</p>
+		<p class="source">Source: <a href="http://gridgroup.hefr.ch/gridgroup/index.php/Projects">http://gridgroup.hefr.ch/gridgroup/index.php/Projects</a>.</p>
+	</blockquote>
+</section>
 
-<body>
-  <a href="http://github.com/GaretJax/pop-python"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+<section id="meetings">
+	<h1>Meeting agendas &amp; records</h1>
+	
+	<table>
+		<tr>
+			<th scope="col">Meeting</th>
+			<th scope="col">Last update</th>
+			<th scope="col"></th>
+		</tr>
+		<tr>
+			<th scope="row">1 – Kick-off meeting</th>
+			<td>29. September 2010</td>
+			<td><a href="http://github.com/downloads/GaretJax/pop-python/2010-09-29_Agenda.pdf">Agenda</a> | <a>Record</a> (not yet available)</td>
+		</tr>
+	</table>
+</section>
 
-  <div id="container">
+<section id="documents">
+	<h1>Other documents</h1>
+	
+	<table>
+		<!--tr>
+			<th scope="col">Title</th>
+			<th scope="col">Last update</th>
+		</tr>
+		<tr>
+			<th scope="row">1 – Kick-off meeting</th>
+			<td>Not yet available</td>
+		</tr-->
+		<tr>
+			<td colspan="2">No documents available yet</td>
+		</tr>
+	</table>
+</section>
 
-    <div class="download">
-      <a href="http://github.com/GaretJax/pop-python/zipball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
-      <a href="http://github.com/GaretJax/pop-python/tarball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
-    </div>
+<section id="sources">
+	<h1>Obtaining the sources</h1>
+	
+	<p>You can download a package containing the last commit of this project in either
+		<a href="http://github.com/GaretJax/pop-python/zipball/master">zip</a> or
+		<a href="http://github.com/GaretJax/pop-python/tarball/master">tar</a> format.</p>
+	<p>You can also clone the project to hack on it locally using <a href="http://git-scm.com">Git</a> by running:</p>
+	{% highlight bash %}
+	$ git clone git://github.com/GaretJax/pop-python
+	{% endhighlight %}
+</section>
 
-    <h1><a href="http://github.com/GaretJax/pop-python">pop-python</a>
-      <span class="small">by <a href="http://github.com/GaretJax">GaretJax</a></span></h1>
-
-    <div class="description">
-      Python implementation of the POP Model
-    </div>
-
-    <h2>Contact</h2>
-<p>Jonathan Stoppani (jonathan@garetjax.info)<br/>      </p>
-
-
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="http://github.com/GaretJax/pop-python/zipball/master">zip</a> or
-      <a href="http://github.com/GaretJax/pop-python/tarball/master">tar</a> formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/GaretJax/pop-python</pre>
-    </p>
-
-    <div class="footer">
-      get the source code on GitHub : <a href="http://github.com/GaretJax/pop-python">GaretJax/pop-python</a>
-    </div>
-
-  </div>
-
-  <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-75602-6");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-</body>
-</html>
+<section id="resources">
+	<h1>Other useful resources</h1>
+	
+	<p>The <a href="http://github.com/GaretJax/pop-python/commits/master">whole history</a> 
+		of the project development as well as the complete list of <a href="http://github.com/GaretJax/pop-python/downloads">available downloads</a>
+		can be found by browsing the <a href="http://github.com/GaretJax/pop-python">main github web interface</a>.</p>
+	<p>The homepage of the <a href="http://gridgroup.hefr.ch/">grid group</a> and especially the section dedicated to the
+		<a href="http://gridgroup.hefr.ch/popc/">POP-C++ project</a> are also a great source of information.</p>
+</section>

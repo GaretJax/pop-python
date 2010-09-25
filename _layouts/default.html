@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="utf-8">
+	
+	<!--[if IE]><![endif]-->
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>{{ page.title }}</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+	
+	<!-- Place favicon.ico and apple-touch-icon.png in the root of your domain and delete these references -->
+	<link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
+	
+	<link rel="stylesheet" href="{{ site.url }}/styles/master.css?v=1">
+	<link rel="stylesheet" media="handheld" href="{{ site.url }}/styles/handheld.css?v=1">
+	
+	<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+	<script src="{{ site.url }}/scripts/modernizr-1.5.min.js"></script>
+</head>
+<!--[if lt IE 7 ]><body class="ie6"><![endif]-->
+<!--[if IE 7 ]><body class="ie7"><![endif]-->
+<!--[if IE 8 ]><body class="ie8"><![endif]-->
+<!--[if IE 9 ]><body class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><body><!--<![endif]-->
+	
+	<header>
+		<h1>POP Python</h1>
+		<h2>An implementation of the POP model using the Python programming language</h2>
+	</header>
+	
+	{{ content }}
+	
+	<footer>
+		<p>Python POP model implementation, a semester project at the <a href="http://eia-fr.ch">EIA-FR</a></p>
+		<p>Copyright © 2010, Jonathan Stoppani</p>
+	</footer>
+	
+	<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script src="{{ site.url }}/scripts/master.js?v=1"></script>
+	<script>
+		var _gaq = [['_setAccount', 'UA-75602-6'], ['_trackPageview']];
+		(function(d, t) {
+			var g = d.createElement(t),
+				s = d.getElementsByTagName(t)[0];
+			g.async = true;
+			g.src = '//www.google-analytics.com/ga.js';
+			s.parentNode.insertBefore(g, s);
+	 	})(document, 'script');
+	</script>
+</body>
+</html>

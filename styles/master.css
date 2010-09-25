@@ -1,0 +1,279 @@
+/* line 14, ../../../../.gem/ruby/1.8/gems/compass-0.10.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 17, ../../../../.gem/ruby/1.8/gems/compass-0.10.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+/* line 19, ../../../../.gem/ruby/1.8/gems/compass-0.10.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 21, ../../../../.gem/ruby/1.8/gems/compass-0.10.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 23, ../../../../.gem/ruby/1.8/gems/compass-0.10.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 25, ../../../../.gem/ruby/1.8/gems/compass-0.10.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: "" "";
+}
+/* line 96, ../../../../.gem/ruby/1.8/gems/compass-0.10.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* line 27, ../../../../.gem/ruby/1.8/gems/compass-0.10.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 107, ../../../../.gem/ruby/1.8/gems/compass-0.10.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+section, article, aside, header, footer, nav, dialog, figure {
+  display: block;
+}
+
+/* line 3, ../_sass/_content.sass */
+body {
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  margin: 0 auto 2em;
+  padding: 0 3em;
+  max-width: 1100px;
+  font-size: 18px;
+  line-height: 1.3em;
+}
+
+/* line 11, ../_sass/_content.sass */
+header {
+  padding: 3em 0 1em 0;
+}
+/* line 14, ../_sass/_content.sass */
+header h1 {
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 1.2em;
+}
+/* line 19, ../_sass/_content.sass */
+header h2 {
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+/* line 23, ../_sass/_content.sass */
+strong {
+  font-weight: bold;
+}
+
+/* line 26, ../_sass/_content.sass */
+section {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+/* line 30, ../_sass/_content.sass */
+section h1 {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 0 0 0.3em 0;
+}
+
+/* line 38, ../_sass/_content.sass */
+a:link, a:visited {
+  color: #164270;
+  text-decoration: none;
+  border-bottom: 1px dotted #bbbbbb;
+  display: inline-block;
+  line-height: 1.1em;
+  margin: -0.2em -0.2em 0;
+  padding: 0.2em 0.2em 0;
+}
+/* line 48, ../_sass/_content.sass */
+a:link:hover, a:visited:hover {
+  color: #555555;
+  background: #eeeeee;
+}
+
+/* line 52, ../_sass/_content.sass */
+a:visited {
+  color: #666666;
+}
+
+/* line 56, ../_sass/_content.sass */
+p {
+  margin: 1em 0;
+  color: #222222;
+}
+
+/* line 60, ../_sass/_content.sass */
+pre {
+  white-space: normal;
+  color: white;
+  background: #272822;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  font-family: "Courier New", "Monaco", "Nimbus Mono L";
+}
+/* line 68, ../_sass/_content.sass */
+pre code {
+  white-space: pre;
+}
+
+/* line 71, ../_sass/_content.sass */
+table {
+  width: 100%;
+  margin: 1em 0;
+}
+/* line 75, ../_sass/_content.sass */
+table td, table th[scope=row] {
+  padding: 0.6em 0 0.4em;
+}
+/* line 78, ../_sass/_content.sass */
+table th[scope=col] {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-size: 0.7em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333333;
+}
+/* line 85, ../_sass/_content.sass */
+table tr:first-child td {
+  border-top: 1px solid #dddddd;
+}
+/* line 89, ../_sass/_content.sass */
+table tr td, table tr th {
+  border-bottom: 1px solid #dddddd;
+}
+/* line 93, ../_sass/_content.sass */
+table tr:hover td, table tr:hover th[scope=row] {
+  background: #f6f6f6;
+}
+
+/* line 96, ../_sass/_content.sass */
+blockquote {
+  font-style: italic;
+  padding: 0 1.2em;
+  border-left: 3px solid #cccccc;
+}
+/* line 101, ../_sass/_content.sass */
+blockquote p {
+  margin: 0.5em 0;
+}
+/* line 104, ../_sass/_content.sass */
+blockquote .source {
+  text-align: right;
+  font-style: normal;
+  font-size: 0.8em;
+}
+
+/* line 109, ../_sass/_content.sass */
+footer {
+  text-align: right;
+  margin-top: 2em;
+}
+/* line 113, ../_sass/_content.sass */
+footer p {
+  color: #999999;
+  font-size: 0.85em;
+  margin: 0.2em 0;
+}
+
+/* line 118, ../_sass/_content.sass */
+#introduction img {
+  float: left;
+  margin: 0 1em 0.5em 0;
+}
+
+/* line 122, ../_sass/_content.sass */
+#meetings table td:last-child {
+  text-align: right;
+}
+
+/* line 126, ../_sass/_content.sass */
+#meetings td:nth-child(2), #documents td:nth-child(2) {
+  color: #666666;
+  width: 16em;
+  font-style: italic;
+}
+/* line 131, ../_sass/_content.sass */
+#meetings td:last-child, #documents td:last-child {
+  color: #999999;
+  font-size: 0.95em;
+  font-style: italic;
+}
+/* line 132, ../_sass/_content.sass */
+#meetings td:last-child:not(:only-child), #documents td:last-child:not(:only-child) {
+  width: 20em;
+}
+/* line 139, ../_sass/_content.sass */
+#meetings td:last-child a:not([href]), #documents td:last-child a:not([href]) {
+  color: #666666;
+}
+/* line 142, ../_sass/_content.sass */
+#meetings td:last-child a, #documents td:last-child a {
+  font-size: 1.05em;
+  font-style: normal;
+}
+
+/* line 146, ../_sass/_content.sass */
+#documents table td:only-child {
+  text-align: center;
+}
+
+@media print {
+  /* line 150, ../_sass/_content.sass */
+  body {
+    font-size: 12px;
+  }
+
+  /* line 153, ../_sass/_content.sass */
+  a:link, a:visited {
+    border-bottom: 0;
+    color: #164270;
+  }
+
+  /* line 157, ../_sass/_content.sass */
+  a[href]:after {
+    font-size: 0.9em;
+    content: " (" attr(href) ")";
+  }
+
+  /* line 161, ../_sass/_content.sass */
+  blockquote .source a:after {
+    content: "";
+  }
+
+  /* line 164, ../_sass/_content.sass */
+  pre {
+    background: none;
+    color: black;
+  }
+}
