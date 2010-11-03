@@ -180,7 +180,7 @@
 			<key>side</key>
 			<real>0.70538985729217529</real>
 			<key>window</key>
-			<string>{{0, 82}, {1920, 1096}}</string>
+			<string>{{1917, 78}, {1920, 1096}}</string>
 		</dict>
 	</array>
 	<key>displaySeconds</key>
@@ -888,11 +888,11 @@
 				</dict>
 			</array>
 			<key>doneSeconds</key>
-			<real>36000</real>
+			<real>72000</real>
 			<key>effort</key>
 			<real>7200</real>
 			<key>effortDone</key>
-			<real>3600</real>
+			<real>7200</real>
 			<key>endPlanDate</key>
 			<string>20101022160000</string>
 			<key>objectId</key>
@@ -902,7 +902,7 @@
 			<key>task</key>
 			<string>Installation of POP-C++ on different computers</string>
 			<key>workDone</key>
-			<real>10</real>
+			<real>20</real>
 			<key>workSeconds</key>
 			<real>72000</real>
 			<key>workTime</key>
@@ -919,11 +919,11 @@
 				</dict>
 			</array>
 			<key>doneSeconds</key>
-			<real>28800</real>
+			<real>52416</real>
 			<key>effort</key>
 			<real>14400</real>
 			<key>effortDone</key>
-			<real>7200</real>
+			<real>13104</real>
 			<key>endPlanDate</key>
 			<string>20101020110000</string>
 			<key>objectId</key>
@@ -933,7 +933,7 @@
 			<key>task</key>
 			<string>Definition of "analysis-cases"</string>
 			<key>workDone</key>
-			<real>8</real>
+			<real>14.560000419616699</real>
 			<key>workSeconds</key>
 			<real>57600</real>
 			<key>workTime</key>
@@ -950,11 +950,11 @@
 				</dict>
 			</array>
 			<key>doneSeconds</key>
-			<real>2879.999755859375</real>
+			<real>23616</real>
 			<key>effort</key>
 			<real>14400</real>
 			<key>effortDone</key>
-			<real>1439.9998779296875</real>
+			<real>11808</real>
 			<key>endPlanDate</key>
 			<string>20101027110000</string>
 			<key>objectId</key>
@@ -973,7 +973,7 @@
 			<key>task</key>
 			<string>Coding and measurement of the analysis-cases</string>
 			<key>workDone</key>
-			<real>0.79999995231628418</real>
+			<real>6.559999942779541</real>
 			<key>workSeconds</key>
 			<real>28800</real>
 			<key>workTime</key>
@@ -989,8 +989,12 @@
 					<real>0.40000000596046448</real>
 				</dict>
 			</array>
+			<key>doneSeconds</key>
+			<real>41580</real>
 			<key>effort</key>
 			<real>21600</real>
+			<key>effortDone</key>
+			<real>16632</real>
 			<key>endPlanDate</key>
 			<string>20101108144000</string>
 			<key>objectId</key>
@@ -1014,6 +1018,8 @@
 			<string>20101027110000</string>
 			<key>task</key>
 			<string>Analysis of the results</string>
+			<key>workDone</key>
+			<real>11.550000190734863</real>
 			<key>workSeconds</key>
 			<real>54000</real>
 			<key>workTime</key>
@@ -1044,8 +1050,12 @@
 					<real>0.15000000596046448</real>
 				</dict>
 			</array>
+			<key>doneSeconds</key>
+			<real>36960</real>
 			<key>effort</key>
 			<real>7200</real>
+			<key>effortDone</key>
+			<real>5544</real>
 			<key>endPlanDate</key>
 			<string>20101022160000</string>
 			<key>objectId</key>
@@ -1054,6 +1064,8 @@
 			<string>20101006110000</string>
 			<key>task</key>
 			<string>Collection of information about tools and libraries</string>
+			<key>workDone</key>
+			<real>10.266666412353516</real>
 			<key>workSeconds</key>
 			<real>48000</real>
 			<key>workTime</key>
@@ -1069,8 +1081,12 @@
 					<real>0.40000000596046448</real>
 				</dict>
 			</array>
+			<key>doneSeconds</key>
+			<real>10440</real>
 			<key>effort</key>
 			<real>14400</real>
+			<key>effortDone</key>
+			<real>4176</real>
 			<key>endPlanDate</key>
 			<string>20101104094000</string>
 			<key>objectId</key>
@@ -1088,6 +1104,8 @@
 			<string>20101022160000</string>
 			<key>task</key>
 			<string>Analysis and comparison of the different technologies</string>
+			<key>workDone</key>
+			<real>2.9000000953674316</real>
 			<key>workSeconds</key>
 			<real>36000</real>
 			<key>workTime</key>
@@ -1129,8 +1147,12 @@
 			</array>
 			<key>desiredStart</key>
 			<string>20101022182000</string>
+			<key>doneSeconds</key>
+			<real>32639.998046875</real>
 			<key>effort</key>
 			<real>7200</real>
+			<key>effortDone</key>
+			<real>4896</real>
 			<key>endPlanDate</key>
 			<string>20101116152000</string>
 			<key>objectId</key>
@@ -1150,6 +1172,8 @@
 			<string>20101104114000</string>
 			<key>task</key>
 			<string>Syntax definition</string>
+			<key>workDone</key>
+			<real>9.0666656494140625</real>
 			<key>workSeconds</key>
 			<real>48000</real>
 			<key>workTime</key>
@@ -1869,7 +1893,7 @@
 		<integer>-1</integer>
 	</array>
 	<key>uuid</key>
-	<string>4326E66B-ABE2-40F8-A40A-1B9A3DCA83B1</string>
+	<string>CAA680D7-3A1B-4E6A-B635-397BE230C813</string>
 	<key>version</key>
 	<integer>2</integer>
 </dict>
