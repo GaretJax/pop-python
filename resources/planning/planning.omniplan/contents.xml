@@ -30,7 +30,7 @@
 			<key>GanttGroupShading</key>
 			<false/>
 			<key>GanttVisibleRect</key>
-			<string>{{-35, 0}, {1333, 962}}</string>
+			<string>{{-31, 0}, {1333, 962}}</string>
 			<key>OutlineVisibleRect</key>
 			<string>{{0, 0}, {563, 962}}</string>
 			<key>ScaleWidths</key>
@@ -180,7 +180,7 @@
 			<key>side</key>
 			<real>0.70538985729217529</real>
 			<key>window</key>
-			<string>{{1917, 78}, {1920, 1096}}</string>
+			<string>{{0, 81}, {1920, 1096}}</string>
 		</dict>
 	</array>
 	<key>displaySeconds</key>
@@ -919,11 +919,11 @@
 				</dict>
 			</array>
 			<key>doneSeconds</key>
-			<real>52416</real>
+			<real>57600</real>
 			<key>effort</key>
 			<real>14400</real>
 			<key>effortDone</key>
-			<real>13104</real>
+			<real>14400</real>
 			<key>endPlanDate</key>
 			<string>20101020110000</string>
 			<key>objectId</key>
@@ -933,7 +933,7 @@
 			<key>task</key>
 			<string>Definition of "analysis-cases"</string>
 			<key>workDone</key>
-			<real>14.560000419616699</real>
+			<real>16</real>
 			<key>workSeconds</key>
 			<real>57600</real>
 			<key>workTime</key>
@@ -1051,11 +1051,11 @@
 				</dict>
 			</array>
 			<key>doneSeconds</key>
-			<real>36960</real>
+			<real>44160</real>
 			<key>effort</key>
 			<real>7200</real>
 			<key>effortDone</key>
-			<real>5544</real>
+			<real>6624</real>
 			<key>endPlanDate</key>
 			<string>20101022160000</string>
 			<key>objectId</key>
@@ -1065,7 +1065,7 @@
 			<key>task</key>
 			<string>Collection of information about tools and libraries</string>
 			<key>workDone</key>
-			<real>10.266666412353516</real>
+			<real>12.266666412353516</real>
 			<key>workSeconds</key>
 			<real>48000</real>
 			<key>workTime</key>
@@ -1082,11 +1082,11 @@
 				</dict>
 			</array>
 			<key>doneSeconds</key>
-			<real>10440</real>
+			<real>13680</real>
 			<key>effort</key>
 			<real>14400</real>
 			<key>effortDone</key>
-			<real>4176</real>
+			<real>5472</real>
 			<key>endPlanDate</key>
 			<string>20101104094000</string>
 			<key>objectId</key>
@@ -1105,7 +1105,7 @@
 			<key>task</key>
 			<string>Analysis and comparison of the different technologies</string>
 			<key>workDone</key>
-			<real>2.9000000953674316</real>
+			<real>3.7999999523162842</real>
 			<key>workSeconds</key>
 			<real>36000</real>
 			<key>workTime</key>
@@ -1148,11 +1148,11 @@
 			<key>desiredStart</key>
 			<string>20101022182000</string>
 			<key>doneSeconds</key>
-			<real>32639.998046875</real>
+			<real>39360</real>
 			<key>effort</key>
 			<real>7200</real>
 			<key>effortDone</key>
-			<real>4896</real>
+			<real>5904</real>
 			<key>endPlanDate</key>
 			<string>20101116152000</string>
 			<key>objectId</key>
@@ -1173,7 +1173,7 @@
 			<key>task</key>
 			<string>Syntax definition</string>
 			<key>workDone</key>
-			<real>9.0666656494140625</real>
+			<real>10.933333396911621</real>
 			<key>workSeconds</key>
 			<real>48000</real>
 			<key>workTime</key>
@@ -1488,6 +1488,8 @@
 			<string>Final documentation</string>
 		</dict>
 		<dict>
+			<key>completionPercentage</key>
+			<real>1</real>
 			<key>effort</key>
 			<real>0.0</real>
 			<key>endPlanDate</key>
@@ -1511,6 +1513,8 @@
 			<string>Protocol analysis</string>
 		</dict>
 		<dict>
+			<key>completionPercentage</key>
+			<real>1</real>
 			<key>effort</key>
 			<real>0.0</real>
 			<key>endPlanDate</key>
@@ -1838,6 +1842,8 @@
 			<real>4</real>
 		</dict>
 		<dict>
+			<key>completionPercentage</key>
+			<real>1</real>
 			<key>effort</key>
 			<real>0.0</real>
 			<key>endPlanDate</key>
@@ -1893,7 +1899,7 @@
 		<integer>-1</integer>
 	</array>
 	<key>uuid</key>
-	<string>CAA680D7-3A1B-4E6A-B635-397BE230C813</string>
+	<string>58F45150-9E0F-4020-8783-BC8531799324</string>
 	<key>version</key>
 	<integer>2</integer>
 </dict>
