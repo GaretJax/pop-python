@@ -229,13 +229,13 @@ footer p {
   font-style: italic;
 }
 /* line 131, ../_sass/_content.sass */
-#meetings th[colspan], #documents th[colspan] {
+#meetings th[rowspan], #documents th[rowspan] {
   font-size: 1.5em;
   font-weight: bold;
   text-align: center;
 }
 /* line 132, ../_sass/_content.sass */
-#meetings th[colspan]:hover, #documents th[colspan]:hover {
+#meetings th[rowspan]:hover, #documents th[rowspan]:hover {
   background: white;
 }
 /* line 139, ../_sass/_content.sass */
