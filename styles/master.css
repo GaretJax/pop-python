@@ -181,112 +181,113 @@ table tr td, table tr th {
 table tr:hover td, table tr:hover th[scope=row] {
   background: #f6f6f6;
 }
-
 /* line 96, ../_sass/_content.sass */
+table tr:hover th[rowspan] {
+  background: white;
+}
+
+/* line 99, ../_sass/_content.sass */
 blockquote {
   font-style: italic;
   padding: 0 1.2em;
   border-left: 3px solid #cccccc;
 }
-/* line 101, ../_sass/_content.sass */
+/* line 104, ../_sass/_content.sass */
 blockquote p {
   margin: 0.5em 0;
 }
-/* line 104, ../_sass/_content.sass */
+/* line 107, ../_sass/_content.sass */
 blockquote .source {
   text-align: right;
   font-style: normal;
   font-size: 0.8em;
 }
 
-/* line 109, ../_sass/_content.sass */
+/* line 112, ../_sass/_content.sass */
 footer {
   text-align: right;
   margin-top: 2em;
 }
-/* line 113, ../_sass/_content.sass */
+/* line 116, ../_sass/_content.sass */
 footer p {
   color: #999999;
   font-size: 0.85em;
   margin: 0.2em 0;
 }
 
-/* line 118, ../_sass/_content.sass */
+/* line 121, ../_sass/_content.sass */
 #introduction img {
   float: left;
   margin: 0 1em 0.5em 0;
 }
 
-/* line 122, ../_sass/_content.sass */
+/* line 125, ../_sass/_content.sass */
 #meetings table td:last-child {
   text-align: right;
 }
 
-/* line 126, ../_sass/_content.sass */
+/* line 129, ../_sass/_content.sass */
 #meetings td:nth-child(2), #meetings th[scope=row] + td, #documents td:nth-child(2), #documents th[scope=row] + td {
   color: #666666;
   width: 16em;
   font-style: italic;
 }
-/* line 131, ../_sass/_content.sass */
+/* line 134, ../_sass/_content.sass */
 #meetings th[rowspan], #documents th[rowspan] {
+  background: white;
   font-size: 1.5em;
   font-weight: bold;
   text-align: center;
 }
-/* line 132, ../_sass/_content.sass */
-#meetings th[rowspan]:hover, #documents th[rowspan]:hover {
-  background: white;
-}
-/* line 139, ../_sass/_content.sass */
+/* line 141, ../_sass/_content.sass */
 #meetings td:last-child, #documents td:last-child {
   color: #999999;
   font-size: 0.95em;
   font-style: italic;
 }
-/* line 140, ../_sass/_content.sass */
+/* line 142, ../_sass/_content.sass */
 #meetings td:last-child:not(:only-child), #documents td:last-child:not(:only-child) {
   width: 20em;
 }
-/* line 147, ../_sass/_content.sass */
+/* line 149, ../_sass/_content.sass */
 #meetings td:last-child a:not([href]), #documents td:last-child a:not([href]) {
   color: #666666;
 }
-/* line 150, ../_sass/_content.sass */
+/* line 152, ../_sass/_content.sass */
 #meetings td:last-child a, #documents td:last-child a {
   font-size: 1.05em;
   font-style: normal;
 }
 
-/* line 154, ../_sass/_content.sass */
+/* line 156, ../_sass/_content.sass */
 #documents table td:only-child {
   text-align: center;
 }
 
 @media print {
-  /* line 158, ../_sass/_content.sass */
+  /* line 160, ../_sass/_content.sass */
   body {
     font-size: 12px;
   }
 
-  /* line 161, ../_sass/_content.sass */
+  /* line 163, ../_sass/_content.sass */
   a:link, a:visited {
     border-bottom: 0;
     color: #164270;
   }
 
-  /* line 165, ../_sass/_content.sass */
+  /* line 167, ../_sass/_content.sass */
   a[href]:after {
     font-size: 0.9em;
     content: " (" attr(href) ")";
   }
 
-  /* line 169, ../_sass/_content.sass */
+  /* line 171, ../_sass/_content.sass */
   blockquote .source a:after {
     content: "";
   }
 
-  /* line 172, ../_sass/_content.sass */
+  /* line 174, ../_sass/_content.sass */
   pre {
     background: none;
     color: black;
