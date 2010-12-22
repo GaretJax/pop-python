@@ -229,54 +229,64 @@ footer p {
   font-style: italic;
 }
 /* line 131, ../_sass/_content.sass */
+#meetings th[colspan], #documents th[colspan] {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+/* line 132, ../_sass/_content.sass */
+#meetings th[colspan]:hover, #documents th[colspan]:hover {
+  background: white;
+}
+/* line 139, ../_sass/_content.sass */
 #meetings td:last-child, #documents td:last-child {
   color: #999999;
   font-size: 0.95em;
   font-style: italic;
 }
-/* line 132, ../_sass/_content.sass */
+/* line 140, ../_sass/_content.sass */
 #meetings td:last-child:not(:only-child), #documents td:last-child:not(:only-child) {
   width: 20em;
 }
-/* line 139, ../_sass/_content.sass */
+/* line 147, ../_sass/_content.sass */
 #meetings td:last-child a:not([href]), #documents td:last-child a:not([href]) {
   color: #666666;
 }
-/* line 142, ../_sass/_content.sass */
+/* line 150, ../_sass/_content.sass */
 #meetings td:last-child a, #documents td:last-child a {
   font-size: 1.05em;
   font-style: normal;
 }
 
-/* line 146, ../_sass/_content.sass */
+/* line 154, ../_sass/_content.sass */
 #documents table td:only-child {
   text-align: center;
 }
 
 @media print {
-  /* line 150, ../_sass/_content.sass */
+  /* line 158, ../_sass/_content.sass */
   body {
     font-size: 12px;
   }
 
-  /* line 153, ../_sass/_content.sass */
+  /* line 161, ../_sass/_content.sass */
   a:link, a:visited {
     border-bottom: 0;
     color: #164270;
   }
 
-  /* line 157, ../_sass/_content.sass */
+  /* line 165, ../_sass/_content.sass */
   a[href]:after {
     font-size: 0.9em;
     content: " (" attr(href) ")";
   }
 
-  /* line 161, ../_sass/_content.sass */
+  /* line 169, ../_sass/_content.sass */
   blockquote .source a:after {
     content: "";
   }
 
-  /* line 164, ../_sass/_content.sass */
+  /* line 172, ../_sass/_content.sass */
   pre {
     background: none;
     color: black;
